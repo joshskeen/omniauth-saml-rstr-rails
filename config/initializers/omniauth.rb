@@ -1,7 +1,7 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :SAML, {
-    :assertion_consumer_service_url => "http://localhost:3000/auth/saml/callback",
-    :issuer                         => "http://localhost:3000",
+    :assertion_consumer_service_url => "http://radiant-depths-9023.herokuapp.com//auth/saml/callback",
+    :issuer                         => "http://radiant-depths-9023.herokuapp.com/",
     :idp_sso_target_url             => "https://app.onelogin.com/saml/signon/48800",    #"https://fs.thinkthroughmath.com",
     :idp_cert_fingerprint           => "3A:63:F6:38:CE:51:88:93:F1:E4:93:83:D2:D8:34:5A:29:E9:9A:7D" #3A:63:F6:38:CE:51:88:93:F1:E4:93:83:D2:D8:34:5A:29:E9:9A:7D
     # :idp_cert                       => "--certificate--"
