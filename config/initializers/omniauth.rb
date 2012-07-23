@@ -2,7 +2,7 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :SAML, {
     :assertion_consumer_service_url => "https://omniauth-rails.herokuapp.com/auth/saml/callback",
     :issuer                         => "https://omniauth-rails.herokuapp.com",
-    :idp_sso_target_url             => "https://fs.thinkthroughmath.com/adfs/ls/auth/integrated/?wa=wsignin1.0&wtrealm=urn:omniauth" #"https://app.onelogin.com/saml/signon/48800",    #"https://fs.thinkthroughmath.com",
+    :idp_sso_target_url             => "https://fs.thinkthroughmath.com/adfs/ls/auth/integrated/?wa=wsignin1.0&wtrealm=urn:omniauth", #"https://app.onelogin.com/saml/signon/48800",    #"https://fs.thinkthroughmath.com",
     :idp_cert_fingerprint           => "3A:63:F6:38:CE:51:88:93:F1:E4:93:83:D2:D8:34:5A:29:E9:9A:7D" #3A:63:F6:38:CE:51:88:93:F1:E4:93:83:D2:D8:34:5A:29:E9:9A:7D
     # :idp_cert                       => "--certificate--"
     # :name_identifier_format         => "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
