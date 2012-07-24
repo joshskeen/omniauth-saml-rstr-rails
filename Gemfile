@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'pg'
 gem 'omniauth'
-gem 'omniauth-saml'
+gem 'omniauth-saml', :git => "https://github.com/highgroove/omniauth-saml"
 gem 'devise'
 
 group :assets do
