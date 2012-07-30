@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/highgroove/omniauth-saml-rstr.git
-  revision: 22f8ae502cf7fe1c95ea2f334b44bfabd08afe55
+  revision: 14d0f8b77b382265a1240c9713dbb242772c72d9
   specs:
     omniauth-saml-rstr (0.1.0)
       omniauth (~> 1.0)
