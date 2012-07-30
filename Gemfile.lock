@@ -206,6 +206,7 @@ DEPENDENCIES
   heroku
   jquery-rails
   launchy
+  nokogiri
   omniauth
   omniauth-saml-rstr!
   pg

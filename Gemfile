@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'pg'
 gem 'omniauth'
+gem 'nokogiri'
 gem 'omniauth-saml-rstr', :git => "git://github.com/mutexkid/omniauth-saml-rstr.git"
 gem 'devise'
 
