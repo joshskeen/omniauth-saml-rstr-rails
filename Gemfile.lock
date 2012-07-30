@@ -1,8 +1,8 @@
 GIT
-  remote: https://github.com/highgroove/omniauth-saml
-  revision: a9473651d701644e055471da46525c5e0fd53250
+  remote: git://github.com/mutexkid/omniauth-saml-rstr.git
+  revision: ed2d11116f6c7bee3c4312c60386622de41bfa6f
   specs:
-    omniauth-saml (0.9.2)
+    omniauth-saml-rstr (0.1.0)
       omniauth (~> 1.0)
       uuid (~> 2.3)
       xmlcanonicalizer (= 0.1.1)
@@ -207,7 +207,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   omniauth
-  omniauth-saml!
+  omniauth-saml-rstr!
   pg
   rails (= 3.2.6)
   rspec-rails
