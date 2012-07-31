@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
     flash[:notice] = "Login Successfully"
     @provider = request.env['omniauth.auth']['provider']
     @uid      = request.env['omniauth.auth']['uid']
+    #start a session here, etc!
   end
 
   def failure
